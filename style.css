@@ -1,0 +1,95 @@
+
+  .IMG_1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "nav nav nav nav nav nav nav nav nav nav"
+      "section2 section2 section2 section2 main-content main-content main-content main-content main-content main-content"
+      "section2 section2 section2 section2 main-content main-content main-content main-content main-content main-content"
+      "section3 section3 section3 section3 main-content main-content main-content main-content main-content main-content"
+      "section3 section3 section3 section3 extra-content extra-content extra-content extra-content extra-content extra-content"
+      "img img img img img img img img post post"
+      "footer footer footer footer footer footer footer footer footer footer";
+    grid-gap: 5px;
+    background-color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+
+  }
+
+  .nav {
+    grid-area: nav;
+    background-color: #90e6a4;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .section2 {
+    grid-area: section2;
+    background-color: #b59aca;
+    text-align: center;
+    padding: 20px;
+    color: #444;
+    font-size: 16px;
+  }
+
+  .section3 {
+    grid-area: section3;
+    background-color: #567e36;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .main-content {
+    grid-area: main-content;
+    background-color: #c2a057;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+  }
+
+  .extra-content {
+    grid-area: extra-content;
+    background-color: #5b773e;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .img {
+    grid-area: img;
+    background-color: #3d90c0;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .post {
+    grid-area: post;
+    background-color: #dd7396;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .footer {
+    grid-area: footer;
+    background-color: #1b33f5;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+  }
