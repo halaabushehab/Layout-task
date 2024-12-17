@@ -1,4 +1,12 @@
 
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(189, 255, 255);
+
+ }
+ 
  .main {
   background-color: rgb(189, 255, 255);
   border: 1px soil rgb(189, 255, 255);
